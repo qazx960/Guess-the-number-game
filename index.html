@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Guess the number</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- main container  -->
+		<main class="container">
+			<!-- title -->
+			<h1 id="main--text">Guess The Number!</h1>
+			<!-- answer -->
+			<div class="" id="displayed--number">?</div>
+			<p>
+				Number is between <span id="lowest--number">1</span> ~
+				<span id="highest--number">100</span>
+			</p>
+			<p>Number of attempts : <span id="attempts">0</span></p>
+			<!-- user input and display for event-->
+			<div class="input--field">
+				<input type="text" name="input" id="input" />
+				<!-- buttons for action -->
+				<div class="input--button">
+					<button id="submit">Submit</button>
+					<button id="reset">Reset</button>
+					<button id="giveup">Give Up</button>
+				</div>
+			</div>
+		</main>
+		<script src="./script.js"></script>
+	</body>
+</html>
